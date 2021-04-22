@@ -1,0 +1,9 @@
+exclude: ["netlify.toml", "README.md", "CORSConfiguration.xml"]
+url: "https://cross-origin-headers-test-site.netlify.app"
+assetsurl: "https://cross-origin-headers-test-site-assets.us-east-1.linodeobjects.com"
+permalink: pretty
+liquid:
+  error_mode: strict
+sass:
+  style: compressed
+title: Cross Origin Headers Test Site

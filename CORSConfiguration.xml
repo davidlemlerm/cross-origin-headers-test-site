@@ -1,0 +1,7 @@
+<CORSConfiguration>
+	<CORSRule>
+		<AllowedOrigin>https://cross-origin-headers-test-site.netlify.app</AllowedOrigin>
+		<AllowedMethod>GET</AllowedMethod>
+		<AllowedMethod>HEAD</AllowedMethod>
+	</CORSRule>
+</CORSConfiguration>

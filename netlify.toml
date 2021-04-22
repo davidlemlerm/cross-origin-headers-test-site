@@ -1,0 +1,11 @@
+[build]
+    publish = "_site"
+    command = "jekyll build"
+[[headers]]
+    for = "/*"
+    [headers.values]
+        cross-origin-embedder-policy = "require-corp"
+        cross-origin-opener-policy = "same-origin"
+        x-content-type-options = "nosniff"
+[[plugins]]
+    package = "netlify-plugin-jekyll-cache"
